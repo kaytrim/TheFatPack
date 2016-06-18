@@ -1,0 +1,20 @@
+[
+  {
+    "address": "irc.twitch.tv",
+    "nick": "kaytrim",
+    "bot": {
+      "messageFormat": "Twitch",
+      "relayIRCJoinLeave": false
+    },
+    "theme": {},
+    "settings": {},
+    "channels": [
+      {
+        "name": "#kaytrim",
+        "bot": {},
+        "theme": {},
+        "settings": {}
+      }
+    ]
+  }
+]
