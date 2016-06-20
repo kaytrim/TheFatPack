@@ -1,0 +1,156 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 50,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 150,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 2,
+            "posY" : 150,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -202,
+            "posY" : 150,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 104,
+            "posY" : 150,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 206,
+            "posY" : 150,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:Lang.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "gitissues":
+        {
+            "text" : "",
+            "posX" : -226,
+            "posY" : 150,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "mainmenu:GitIssues.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/kaytrim/TheFatPack/issues"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+        
+     },
+     
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["mainmenu:Pic1.png","mainmenu:Pic2.png","mainmenu:Pic3.png","mainmenu:Pic4.png","mainmenu:Pic5.png","mainmenu:Pic6.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
+        }
+    }
+}
