@@ -5,7 +5,7 @@
         {
             "image" : "custommainmenu:textures/gui/minecraft.png",
             "posX" : -137,
-            "posY" : 30,
+            "posY" : 50,
             "width" : 512,
             "height" : 512,
             "alignment" : "top_center"
@@ -17,10 +17,11 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : -96,
+            "posY" : 100,
+            "width" : 98,
             "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -31,38 +32,26 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : 4,
+            "posY" : 100,
+            "width" : 98,
             "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
-        "mods":
-        {
-            "text" : "Mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
             
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
+            "posX" : -96,
+            "posY" : 122,
             "width" : 98,
             "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -73,10 +62,11 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
+            "posX" : 4,
+            "posY" : 122,
             "width" : 98,
             "height" : 20,
+            "texture" : "mainmenu:SmButton.png",
             "action" : 
             {
                 "type" : "quit"
@@ -86,10 +76,13 @@
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "posX" : 104,
+            "posY" : 100,
             "width" : 20,
+            "imageWidth" : 80,
             "height" : 20,
+            "imageHeight" : 80,
+            "texture" : "mainmenu:Lang.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -97,11 +90,62 @@
             }
         },
         
+        "gitissues":
+        {
+            "text" : "",
+            "posX" : -118,
+            "posY" : 100,
+            "width" : 20,
+            "imageWidth" : 80,
+            "height" : 20,
+            "imageHeight" : 80,
+            "texture" : "mainmenu:GitIssues.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/kaytrim/TheFatPack/issues"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "",
+            "posX" : -118,
+            "posY" : 122,
+            "width" : 20,
+            "imageWidth" : 80,
+            "height" : 20,
+            "imageHeight" : 80,
+            "texture" : "mainmenu:Mods.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
+        "website":
+        {
+            "text" : "",
+            "posX" : 104,
+            "posY" : 122,
+            "width" : 20,
+            "imageWidth" : 80,
+            "height" : 20,
+            "imageHeight" : 80,
+            "texture" : "mainmenu:Website.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://noipsucks.ddns.net:8080/twitchRedirects/"
+            }
+        },
+        
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : -4,
+            "posY" : 0,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -110,13 +154,14 @@
                 "type" : "refresh"
             }
         }
-    },
-    
+        
+     },
+     
     "texts":
     {
         "mojang":
         {
-            "text" : "Copyright Mojang AB. Do not distribute!",
+            "text" : "",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -135,22 +180,15 @@
     
     "other":
     {
-        "splash-text":
+        "background":
         {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "",
+            "slideshow":
+            {
+                "images" : ["mainmenu:Pic1.png","mainmenu:Pic2.png","mainmenu:Pic3.png","mainmenu:Pic4.png","mainmenu:Pic5.png","mainmenu:Pic6.png"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+            }
         }
     }
 }
