@@ -17,8 +17,8 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 150,
+            "posX" : -96,
+            "posY" : 100,
             "width" : 98,
             "height" : 20,
             "texture" : "mainmenu:SmButton.png",
@@ -32,8 +32,8 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : 2,
-            "posY" : 150,
+            "posX" : 4,
+            "posY" : 100,
             "width" : 98,
             "height" : 20,
             "texture" : "mainmenu:SmButton.png",
@@ -47,8 +47,8 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -202,
-            "posY" : 150,
+            "posX" : -96,
+            "posY" : 122,
             "width" : 98,
             "height" : 20,
             "texture" : "mainmenu:SmButton.png",
@@ -62,8 +62,8 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 104,
-            "posY" : 150,
+            "posX" : 4,
+            "posY" : 122,
             "width" : 98,
             "height" : 20,
             "texture" : "mainmenu:SmButton.png",
@@ -76,10 +76,12 @@
         "language":
         {
             "text" : "",
-            "posX" : 206,
-            "posY" : 150,
+            "posX" : 104,
+            "posY" : 100,
             "width" : 20,
+            "imageWidth" : 80,
             "height" : 20,
+            "imageHeight" : 80,
             "texture" : "mainmenu:Lang.png",
             "action" : 
             {
@@ -91,10 +93,12 @@
         "gitissues":
         {
             "text" : "",
-            "posX" : -226,
-            "posY" : 150,
+            "posX" : -118,
+            "posY" : 100,
             "width" : 20,
+            "imageWidth" : 80,
             "height" : 20,
+            "imageHeight" : 80,
             "texture" : "mainmenu:GitIssues.png",
             "action" : 
             {
@@ -103,10 +107,44 @@
             }
         },
         
+        "mods":
+        {
+            "text" : "",
+            "posX" : -118,
+            "posY" : 122,
+            "width" : 20,
+            "imageWidth" : 80,
+            "height" : 20,
+            "imageHeight" : 80,
+            "texture" : "mainmenu:Mods.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+        
+        "website":
+        {
+            "text" : "",
+            "posX" : 104,
+            "posY" : 122,
+            "width" : 20,
+            "imageWidth" : 80,
+            "height" : 20,
+            "imageHeight" : 80,
+            "texture" : "mainmenu:Website.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "http://noipsucks.ddns.net:8080/twitchRedirects/"
+            }
+        },
+        
         "refresh":
         {
             "text" : "",
-            "posX" : 0,
+            "posX" : -4,
             "posY" : 0,
             "width" : 20,
             "height" : 20,
