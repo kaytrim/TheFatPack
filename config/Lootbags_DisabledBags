@@ -1,0 +1,101 @@
+$STARTBAG:lootbagBacon:5
+    $ISSECRET:true
+    $BAGTEXTCOLOR:§d
+    $BAGTEXTUNOPENED:$AQUA:Ooh, what could be inside?
+    $BAGTEXTOPENED:§d:Turns out there is bacon inside...
+    $BAGTEXTSHIFT:§7:Three out of every four bacons agree that they don't have enough bacon. The fourth has a bag full of bacon.
+    $BAGTEXTSHIFT:§b:(It still isn't enough bacon.)
+    $WEIGHT:-1
+    $CRAFTEDFROM:$NULL
+    $PASSIVESPAWNWEIGHT:0
+    $PLAYERSPAWNWEIGHT:0
+    $MOBSPAWNWEIGHT:0
+    $BOSSSPAWNWEIGHT:0
+    $USEGENERALLOOTSOURCES:false
+    $MAXIMUMITEMS:3
+    $MINIMUMITEMS:1
+    $PREVENTITEMREPEATS:none
+    $EXCLUDEENTITIES:true
+    $STARTENTITYLIST
+        $VISIBLENAME:bacon_donut
+    $ENDENTITYLIST
+    $STARTWHITELIST
+        minecraft:porkchop:0:1:8:20
+        minecraft:cooked_porkchop:0:1:8:20
+    $ENDWHITELIST
+$ENDBAG:lootbagBacon
+$STARTBAG:lootbagSoaryn:7
+    $ISSECRET:true
+    $BAGTEXTCOLOR:$BLUE
+    $BAGTEXTUNOPENED:$AQUA:Ooh, what could be inside?
+    $BAGTEXTOPENED:Everytime a random chest is placed, a Soaryn gets more Chick Fil A.
+    $BAGTEXTSHIFT:One out of every four chests is a Soaryn chest. Only you can prevent inventory clutter by creating more.
+    $WEIGHT:-1
+    $CRAFTEDFROM:$NULL
+    $PASSIVESPAWNWEIGHT:25
+    $PLAYERSPAWNWEIGHT:25
+    $MOBSPAWNWEIGHT:25
+    $BOSSSPAWNWEIGHT:25
+    $USEGENERALLOOTSOURCES:false
+    $MAXIMUMITEMS:3
+    $MINIMUMITEMS:3
+    $PREVENTITEMREPEATS:item
+    $EXCLUDEENTITIES:true
+    $STARTENTITYLIST
+        $VISIBLENAME:Soaryn
+    $ENDENTITYLIST
+    $STARTWHITELIST
+        minecraft:chest:0:1:2:20
+        minecraft:stick:0:1:1:20
+        minecraft:quartz:0:4:4:20
+    $ENDWHITELIST
+$ENDBAG:lootbagSoaryn
+$STARTBAG:lootbagWyld:8
+    $ISSECRET:true
+    $BAGTEXTCOLOR:$RED
+    $BAGTEXTUNOPENED:$AQUA:Ooh, what could be inside?
+    $BAGTEXTOPENED:Raise your Cluckingtons!
+    $BAGTEXTSHIFT:Cluck Cluck...
+    $WEIGHT:-1
+    $CRAFTEDFROM:$NULL
+    $PASSIVESPAWNWEIGHT:25
+    $PLAYERSPAWNWEIGHT:25
+    $MOBSPAWNWEIGHT:25
+    $BOSSSPAWNWEIGHT:25
+    $USEGENERALLOOTSOURCES:false
+    $MAXIMUMITEMS:1
+    $MINIMUMITEMS:1
+    $PREVENTITEMREPEATS:item
+    $EXCLUDEENTITIES:true
+    $STARTENTITYLIST
+        $VISIBLENAME:Wyld
+    $ENDENTITYLIST
+    $STARTWHITELIST
+        minecraft:spawn_egg:93:1:1:20
+    $ENDWHITELIST
+$ENDBAG:lootbagWyld
+$STARTBAG:lootbagBat:9
+    $ISSECRET:true
+    $BAGTEXTCOLOR:$DARK_GRAY
+    $BAGTEXTUNOPENED:$DARK_GREEN:A hero with no praise or glory.
+    $BAGTEXTOPENED:$GREEN:Paging Doctor Bat, paging Doctor Bat! Is there a Doctor Bat in the room?
+    $BAGTEXTSHIFT:$GREEN:Where oh where has my little Bat gone? Oh where, oh where can he be? His cowl, his scowl, his temper so foul. I do hope he's coming for me.
+    $WEIGHT:-1
+    $CRAFTEDFROM:$NULL
+    $PASSIVESPAWNWEIGHT:25
+    $PLAYERSPAWNWEIGHT:25
+    $MOBSPAWNWEIGHT:25
+    $BOSSSPAWNWEIGHT:25
+    $USEGENERALLOOTSOURCES:false
+    $MAXIMUMITEMS:1
+    $MINIMUMITEMS:1
+    $PREVENTITEMREPEATS:item
+    $EXCLUDEENTITIES:true
+    $STARTENTITYLIST
+        $VISIBLENAME:Batman
+        $INTERNALNAME:Bat
+    $ENDENTITYLIST
+    $STARTWHITELIST
+        minecraft:spawn_egg:65:1:1:20
+    $ENDWHITELIST
+$ENDBAG:lootbagBat
